@@ -1,16 +1,17 @@
 {
-  "name": "antipalestinian-vc-funds",
+  "name": "pro-israeli-vc-funds",
   "version": "1.0.0",
-  "description": "[![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "track_genocide_vcs": "node ./scripts/genocide_vc_list_tracker.js"
+    "pro_israeli_vc_list_tracker": "node ./scripts/pro_israeli_vc_list_tracker.js"
   },
   "keywords": [],
-  "author": "techforpalestine",
+  "author": "",
   "license": "CC0 1.0 Universal",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.7.0"
   }
 }
